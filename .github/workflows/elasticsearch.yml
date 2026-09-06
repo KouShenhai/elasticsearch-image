@@ -54,6 +54,8 @@ jobs:
           file: ./Dockerfile
           push: true
           platforms: linux/amd64
+          provenance: false
+          sbom: false
           tags: |
             ${{ env.DOCKERHUB_IMAGE }}:latest
             ${{ env.ALIYUN_IMAGE }}:${{ env.VERSION }}
