@@ -10,7 +10,7 @@ permissions:
   contents: read
 
 env:
-  VERSION: 9.5.3
+  VERSION: 9.5.5
 
   # Docker Hub
   DOCKERHUB_IMAGE: koushenhai/elasticsearch9
